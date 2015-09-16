@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6815B7C1BA9CE31006E1BB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6815B7E1BA9CE31006E1BB3 /* Localizable.strings */; };
+		C6815B811BA9CEE9006E1BB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6815B801BA9CEE9006E1BB3 /* ViewController.m */; };
 		C6B699FF1BA9BD2100EC435E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B699FE1BA9BD2100EC435E /* main.m */; };
 		C6B69A021BA9BD2100EC435E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B69A011BA9BD2100EC435E /* AppDelegate.m */; };
-		C6B69A051BA9BD2100EC435E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B69A041BA9BD2100EC435E /* ViewController.m */; };
 		C6B69A081BA9BD2100EC435E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B69A061BA9BD2100EC435E /* Main.storyboard */; };
 		C6B69A0A1BA9BD2100EC435E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B69A091BA9BD2100EC435E /* Assets.xcassets */; };
-		C6B69A0D1BA9BD2100EC435E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B69A0B1BA9BD2100EC435E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C6815B791BA9C5D8006E1BB3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		C6815B7D1BA9CE31006E1BB3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6815B7F1BA9CE37006E1BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6815B801BA9CEE9006E1BB3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C6B699FA1BA9BD2100EC435E /* SO-AlertViewCompletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SO-AlertViewCompletion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6B699FE1BA9BD2100EC435E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6B69A001BA9BD2100EC435E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6B69A011BA9BD2100EC435E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C6B69A031BA9BD2100EC435E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6B69A041BA9BD2100EC435E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C6B69A071BA9BD2100EC435E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6B69A091BA9BD2100EC435E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C6B69A0C1BA9BD2100EC435E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6B69A0E1BA9BD2100EC435E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,12 +63,12 @@
 				C6B69A001BA9BD2100EC435E /* AppDelegate.h */,
 				C6B69A011BA9BD2100EC435E /* AppDelegate.m */,
 				C6B69A031BA9BD2100EC435E /* ViewController.h */,
-				C6B69A041BA9BD2100EC435E /* ViewController.m */,
+				C6815B801BA9CEE9006E1BB3 /* ViewController.m */,
 				C6B69A061BA9BD2100EC435E /* Main.storyboard */,
 				C6B69A091BA9BD2100EC435E /* Assets.xcassets */,
-				C6B69A0B1BA9BD2100EC435E /* LaunchScreen.storyboard */,
 				C6B69A0E1BA9BD2100EC435E /* Info.plist */,
 				C6B699FD1BA9BD2100EC435E /* Supporting Files */,
+				C6815B7E1BA9CE31006E1BB3 /* Localizable.strings */,
 			);
 			path = "SO-AlertViewCompletion";
 			sourceTree = "<group>";
@@ -136,8 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B69A0D1BA9BD2100EC435E /* LaunchScreen.storyboard in Resources */,
 				C6B69A0A1BA9BD2100EC435E /* Assets.xcassets in Resources */,
+				C6815B7C1BA9CE31006E1BB3 /* Localizable.strings in Resources */,
 				C6B69A081BA9BD2100EC435E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6B69A051BA9BD2100EC435E /* ViewController.m in Sources */,
+				C6815B811BA9CEE9006E1BB3 /* ViewController.m in Sources */,
 				C6B69A021BA9BD2100EC435E /* AppDelegate.m in Sources */,
 				C6B699FF1BA9BD2100EC435E /* main.m in Sources */,
 			);
@@ -158,20 +160,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C6815B7E1BA9CE31006E1BB3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6815B7D1BA9CE31006E1BB3 /* ar */,
+				C6815B7F1BA9CE37006E1BB3 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C6B69A061BA9BD2100EC435E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C6B69A071BA9BD2100EC435E /* Base */,
+				C6815B791BA9C5D8006E1BB3 /* ar */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C6B69A0B1BA9BD2100EC435E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6B69A0C1BA9BD2100EC435E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SO-AlertViewCompletion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ducky.duke.swiftsandbox.SO-AlertViewCompletion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SO-AlertViewCompletion/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ducky.duke.swiftsandbox.SO-AlertViewCompletion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +304,7 @@
 				C6B69A131BA9BD2100EC435E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
